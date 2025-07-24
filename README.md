@@ -3,7 +3,7 @@ Welcome to my personal portfolio website! This is a responsive, modern web app b
 
 # 🚀 Live Demo
 
-[View Portfolio](https://your-username.github.io/your-repo-name)
+[View Portfolio](https://shubhams1712.github.io/)
 
 # 📌 Features
 
