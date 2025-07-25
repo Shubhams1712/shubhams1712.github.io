@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="navbar">
+        <nav>
+          <div class="logo">
+            <h2>Portfolio</h2>
+          </div>
+          <div class="links">
+            <ul class="nav-links">
+              <a href="#about">
+                <li>About</li>
+              </a>
+              <a href="#skills">
+                <li>Skills</li>
+              </a>
+              <a href="#projects">
+                <li>Projects</li>
+              </a>
+            </ul>
+            <a href="mailto:shubhamsingh012345678910@gmail.com" class="hire-me"
+              >Hire Me</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Header -->
+
+    <section class="hero">
+      <div class="hero-header">
+        <div class="hero-bg-img hero-bg-img-top"></div>
+        <div class="hero-bg-img hero-bg-img-bottom"></div>
+        <div class="hero-header-details">
+          <h1 class="intro-name">I'm Shubham Singh</h1>
+          <p>Web Developer | Video Editor | UI/UX Designer</p>
+          <div class="social-links">
+            <div class="social-icon">
+              <a href="https://www.instagram.com/shubhamrsingh_17/" target="_blank">
+                <i class="bx bxl-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/shubham-singh-b2ab732a1/" target="_blank">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+            </div>
+            <div class="resume">
+              <a href="Shubham's Resume.pdf" download="Shubham's Resume">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="about-section">
+      <div class="about-container">
+          <div class="about-image">
+              <img src="images/profile.jpg" alt="Your Profile Picture">
+          </div>
+          <div class="about-text">
+              <h2>About Me</h2>
+              <p>I'm <span class="highlight">Shubham Singh</span>, a passionate 
+                  <span class="highlight">Web Developer</span> and <span class="highlight">Video Editor</span> 
+                  with a love for crafting immersive digital experiences.</p>
+              <p>With <strong>3+ years</strong> of experience, I specialize in 
+                  <span class="highlight">HTML, CSS, JavaScript</span>, and 
+                  <span class="highlight">UI/UX Design</span>. Whether it's designing interactive websites or creating engaging video content, I strive for perfection in every project.</p>
+              <a href="#contact" class="hire-me-btn">Hire Me</a>
+          </div>
+      </div>
+  </section>
+  
+
+    <!-- Skills -->
+
+    <section id="skills">
+      <h2 class="heading">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="bx bxl-html5" id="html"></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="skill">
+          <i class="bx bxl-css3" id="css"></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="skill">
+          <i class="bx bxl-javascript" id="js"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill">
+          <i class="bx bxs-video" id="video"></i>
+          <h3>Video Editing</h3>
+        </div>
+        <div class="skill">
+          <i class="bx bxl-adobe" id="adobe"></i>
+          <h3>Graphic Design</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-container">
+        
+        <div class="project-card">
+          <img src="https://cdn4.vectorstock.com/i/1000x1000/60/38/web-development-and-programming-concept-3d-icon-vector-48626038.jpg" alt="Project 1">
+          <div class="project-text">
+            <h3>Website Design</h3>
+            <p>Web development is the process of building, programming, and maintaining websites and web applications.</p>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <img src="https://img.freepik.com/premium-vector/video-editing-software-project-timeline_681307-18.jpg" alt="Project 2">
+          <div class="project-text">
+            <h3>Video Editing</h3>
+            <p>Video editing includes cutting segments (trimming), re-sequencing clips, and adding transitions and other special effects.</p>
+          </div>
+        </div>
+    
+        <div class="project-card">
+          <img src="https://img.freepik.com/premium-vector/web-design-concept-3d-illustration-icon-composition-with-program-interface-drawing-graphic-elements-site-layout-professional-software-designer-vector-illustration-modern-web-design_198565-1673.jpg?semt=ais_hybrid" alt="Project 3">
+          <div class="project-text">
+            <h3>Graphic Design</h3>
+            <p>Graphic design is a craft where professionals create visual content to communicate messages.</p>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+
+    <!-- Contact Form -->
+
+    <form action="#" method="post" class="contact-form">
+      <h2 class="heading">Contact Form</h2>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name" required />
+      </div>
+      <div class="form-group">
+        <label for="surname">Last Name:</label>
+        <input type="text" id="surname" name="surname" placeholder="Enter your Surname" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+    <!-- Footer -->
+  </body>
+</html>
